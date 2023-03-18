@@ -26,3 +26,15 @@ countDown(5)
 // }
 // countDown(5)
 // // countDown(10);
+
+const address = {
+    street1: '11 Broadway',
+    street2: '2nd Floor',
+    city: 'New York',
+    state: 'NY',
+    zipCode: "10004"
+  };
+  
+  for (const key in address) {
+    console.log(address[key]);
+  }
